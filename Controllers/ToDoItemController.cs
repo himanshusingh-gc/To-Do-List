@@ -19,9 +19,7 @@ namespace To_Do_List.Controllers
         // returns list of to do items - /todoitem/List
         public IEnumerable<Models.ToDoItem> List()
         {
-            Models.ToDoItem[] toDoItems = new[] {new ToDoItem(1,2,"4", true)};
-
-            return toDoItems;
+            return ToDoItemsMap.GetAllItems();
         }
 
         // returns a single todo item with id - /todoitem/get/<id>
