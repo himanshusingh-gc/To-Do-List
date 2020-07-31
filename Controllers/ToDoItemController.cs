@@ -1,16 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using To_Do_List.Models;
 
 namespace To_Do_List.Controllers
 {
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class ToDoItemController : Controller
     {
         // GET
         public IActionResult Index()
         {
-            return Ok("abc");
+            return Ok("test");
         }
 
         // returns list of to do items - /todoitem/List
@@ -19,7 +22,6 @@ namespace To_Do_List.Controllers
             Models.ToDoItem[] toDoItems = new[] {new ToDoItem(1,2,"4", true)};
 
             return toDoItems;
-
         }
 
         // returns a single todo item with id - /todoitem/get/<id>

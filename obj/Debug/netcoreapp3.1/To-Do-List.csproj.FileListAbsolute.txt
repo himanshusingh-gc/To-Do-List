@@ -18,3 +18,12 @@
 /home/himanshusingh/projects/c#/To-Do-List/obj/Debug/netcoreapp3.1/To-Do-List.dll
 /home/himanshusingh/projects/c#/To-Do-List/obj/Debug/netcoreapp3.1/To-Do-List.pdb
 /home/himanshusingh/projects/c#/To-Do-List/obj/Debug/netcoreapp3.1/To-Do-List.genruntimeconfig.cache
+/home/himanshusingh/projects/c#/To-Do-List/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/himanshusingh/projects/c#/To-Do-List/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/himanshusingh/projects/c#/To-Do-List/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/home/himanshusingh/projects/c#/To-Do-List/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/home/himanshusingh/projects/c#/To-Do-List/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/himanshusingh/projects/c#/To-Do-List/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/home/himanshusingh/projects/c#/To-Do-List/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/himanshusingh/projects/c#/To-Do-List/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+/home/himanshusingh/projects/c#/To-Do-List/obj/Debug/netcoreapp3.1/To-Do-List.csproj.CopyComplete
